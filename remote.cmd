@@ -1,10 +1,11 @@
 @echo off
-set /p "fl=>
+
 
 if not exist %cd%\env\ (
 md env
 )
 del %cd%\env\* /Q
+set /p "fl=>
 curl "https://raw.githubusercontent.com/Grctsamu/remotebat/main/scripts/%fl%.bat" > %cd%\env\e.bat
 cls
 echo Executing %fl% 
