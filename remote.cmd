@@ -1,7 +1,7 @@
 @echo off
 set /p "fl=>
 
-if not exists %cd%\env\ (
+if not exist %cd%\env\ (
 md env
 )
 del %cd%\env\* /Q
