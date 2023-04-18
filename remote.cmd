@@ -20,5 +20,5 @@ echo.
 echo End
 cd..
 del %cd%\env\ /Q
-color
+color 07
 pause
