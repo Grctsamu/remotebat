@@ -15,4 +15,5 @@ echo.
 echo.
 echo End
 del %cd%\env\ /Q
+color
 pause
